@@ -10,18 +10,6 @@ header {
   background: #ccc;
 }
 
-header nav ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-header nav li {
-  flex-grow: 1;
-  border: 1px solid #666;
-  list-style-type: none;
-}
-
 header h1 {
   margin: 0;
   flex-shrink: 1;
@@ -30,6 +18,11 @@ header h1 {
 header form {
   border: 1px solid black;
   flex-shrink: 1;
+}
+
+header .projet {
+  display: flex;
+  flex-direction: column;
 }
 
 article {

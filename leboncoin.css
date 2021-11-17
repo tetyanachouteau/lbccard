@@ -68,12 +68,12 @@ article {
 }
 
 .card .favori {
-  position: absolute;
+  text-align: right;
+  padding-right: 55px;
 }
 .card .favori button {
   font-size: 3em;
+  position: absolute;
   background: transparent;
   border: none;
-  position: relative;
-  left: 170px;
 }
